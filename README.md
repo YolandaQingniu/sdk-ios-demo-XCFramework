@@ -6,14 +6,14 @@ SDK的运行需要appid以及配置文件，商家在接入时可先使用轻牛
 
 ### cocoapods安装:
 - 先安装Cocoapods；
-- 通过 pod repo update 更新QNSDK的cocoapods版本；
-- 在Podfile对应的target中，添加`pod 'QNSDK'`，并执行pod install；
+- 通过 pod repo update 更新QNDeviceSDK的cocoapods版本；
+- 在Podfile对应的target中，添加`pod 'QNDeviceSDK'`，并执行pod install；
 - 在项目中使用CocoaPods生成的.xcworkspace运行工程；
 - 在你的代码文件头引入头文件`#import <QNSDK/QNDeviceSDK.h>`
 
 ### Carthage安装:
 - 安装 Carthage；
-- 打开 Cartfile, 添加 `github "https://github.com/YolandaQingniu/sdk-ios-demo.git"`；
+- 打开 Cartfile, 添加 `github "https://github.com/YolandaQingniu/sdk-ios-demo-XCFramework.git"`；
 - 打开命令行, cd 到你的 project 目录, 输入 carthage update；
 - 将 Carthage/Build/ 目录下的 `QNSDK.framework` 拖到你的项目工程配置的 Build Phases -> Linked Binary and Libraries 里面；
 - 在你的代码文件头引入头文件`#import <QNSDK/QNDeviceSDK.h>`
