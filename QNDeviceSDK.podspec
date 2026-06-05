@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.platform              = :ios, '12.0'
   s.source                = { :git => 'https://github.com/YolandaQingniu/sdk-ios-demo-XCFramework.git', :tag => "#{s.version}" }
-  s.vendored_frameworks   = 'QNDeviceSDK/QNSDK.xcframework'
+  s.vendored_libraries   = 'QNDeviceSDK/QNSDK.xcframework'
   s.frameworks            = [
     'Foundation',
     'UIKit',
