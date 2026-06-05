@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors               = { 'QNDeviceSDK' => 'service@qnniu.com' }
 
   s.platform              = :ios, '12.0'
-  s.source                = { :git => 'https://github.com/YolandaQingniu/sdk-ios-demo-XCFramework.git', :tag => "QNDeviceSDK-#{s.version}" }
+  s.source                = { :git => 'https://github.com/YolandaQingniu/sdk-ios-demo-XCFramework.git', :tag => "#{s.version}" }
   s.vendored_frameworks   = 'QNDeviceSDK/QNSDK.xcframework'
   s.frameworks            = [
     'Foundation',
