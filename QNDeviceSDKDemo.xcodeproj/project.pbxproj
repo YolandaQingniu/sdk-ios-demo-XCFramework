@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046F1BFD2FD337BA002F8D74 /* QNSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F1BFC2FD337BA002F8D74 /* QNSDK.xcframework */; };
+		046F1BFF2FD34584002F8D74 /* QNSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F1BFE2FD34584002F8D74 /* QNSDK.xcframework */; };
 		04A4208C235FFAE400716903 /* ScaleDataTargetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4208B235FFAE400716903 /* ScaleDataTargetTool.m */; };
 		04B65F1E2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */; };
 		04B65F1F2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -92,7 +92,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		046F1BFC2FD337BA002F8D74 /* QNSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = QNSDK.xcframework; sourceTree = "<group>"; };
+		046F1BFE2FD34584002F8D74 /* QNSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = QNSDK.xcframework; sourceTree = "<group>"; };
 		04A4208A235FFAE400716903 /* ScaleDataTargetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleDataTargetTool.h; sourceTree = "<group>"; };
 		04A4208B235FFAE400716903 /* ScaleDataTargetTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleDataTargetTool.m; sourceTree = "<group>"; };
 		04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNDeviceSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,7 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046F1BFD2FD337BA002F8D74 /* QNSDK.xcframework in Frameworks */,
+				046F1BFF2FD34584002F8D74 /* QNSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +247,7 @@
 		04B65F262FD2DA3F002AFB5C /* QNDeviceSDK */ = {
 			isa = PBXGroup;
 			children = (
-				046F1BFC2FD337BA002F8D74 /* QNSDK.xcframework */,
+				046F1BFE2FD34584002F8D74 /* QNSDK.xcframework */,
 			);
 			path = QNDeviceSDK;
 			sourceTree = "<group>";
