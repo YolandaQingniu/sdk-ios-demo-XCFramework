@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		046F1BFF2FD34584002F8D74 /* QNSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F1BFE2FD34584002F8D74 /* QNSDK.xcframework */; };
+		046F1C012FD34CCA002F8D74 /* QNDeviceSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 046F1C002FD34CCA002F8D74 /* QNDeviceSDK.podspec */; };
 		04A4208C235FFAE400716903 /* ScaleDataTargetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4208B235FFAE400716903 /* ScaleDataTargetTool.m */; };
 		04B65F1E2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */; };
 		04B65F1F2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04B65F292FD2DC3C002AFB5C /* QNDeviceSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04B65F282FD2DC3C002AFB5C /* QNDeviceSDK.podspec */; };
 		1B09711F2361523200025284 /* KitchenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09711E2361523200025284 /* KitchenVC.m */; };
 		1B1350EE2417395600E94394 /* WspConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1350EC2417395600E94394 /* WspConfigVC.m */; };
 		1B1350EF2417395600E94394 /* WspConfigVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1350ED2417395600E94394 /* WspConfigVC.xib */; };
@@ -93,10 +93,10 @@
 
 /* Begin PBXFileReference section */
 		046F1BFE2FD34584002F8D74 /* QNSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = QNSDK.xcframework; sourceTree = "<group>"; };
+		046F1C002FD34CCA002F8D74 /* QNDeviceSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QNDeviceSDK.podspec; sourceTree = SOURCE_ROOT; };
 		04A4208A235FFAE400716903 /* ScaleDataTargetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleDataTargetTool.h; sourceTree = "<group>"; };
 		04A4208B235FFAE400716903 /* ScaleDataTargetTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleDataTargetTool.m; sourceTree = "<group>"; };
 		04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNDeviceSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04B65F282FD2DC3C002AFB5C /* QNDeviceSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QNDeviceSDK.podspec; sourceTree = "<group>"; };
 		1B09711D2361523200025284 /* KitchenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenVC.h; sourceTree = "<group>"; };
 		1B09711E2361523200025284 /* KitchenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitchenVC.m; sourceTree = "<group>"; };
 		1B1350EB2417395600E94394 /* WspConfigVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WspConfigVC.h; sourceTree = "<group>"; };
@@ -323,7 +323,7 @@
 		D232D6492004DE2D00AABD67 /* QNDeviceSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04B65F282FD2DC3C002AFB5C /* QNDeviceSDK.podspec */,
+				046F1C002FD34CCA002F8D74 /* QNDeviceSDK.podspec */,
 				7E2641B72693EFF3005CB29B /* AnalysisReport */,
 				F51389F12EB9F15700851CC9 /* IQKeyboardManager */,
 				1B99EA242540393200EE7DFA /* Masonry */,
@@ -561,7 +561,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B65F292FD2DC3C002AFB5C /* QNDeviceSDK.podspec in Resources */,
+				046F1C012FD34CCA002F8D74 /* QNDeviceSDK.podspec in Resources */,
 				1B1350EF2417395600E94394 /* WspConfigVC.xib in Resources */,
 				7E2641BF2693F19D005CB29B /* EightElectrodesReportVC.xib in Resources */,
 				D2B9E98B20723DEC0020C2B6 /* DetectionViewController.xib in Resources */,
