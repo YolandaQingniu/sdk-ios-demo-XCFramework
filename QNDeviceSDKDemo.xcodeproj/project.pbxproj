@@ -12,6 +12,7 @@
 		04B65F1E2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */; };
 		04B65F1F2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04B65F182FD2DA3B002AFB5C /* QNDeviceSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04E4F56F30077FF9006C8FBB /* QNSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4F56E30077FF9006C8FBB /* QNSDK.xcframework */; };
+		04E4F57030078023006C8FBB /* QNSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4F56E30077FF9006C8FBB /* QNSDK.xcframework */; };
 		1B09711F2361523200025284 /* KitchenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09711E2361523200025284 /* KitchenVC.m */; };
 		1B1350EE2417395600E94394 /* WspConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1350EC2417395600E94394 /* WspConfigVC.m */; };
 		1B1350EF2417395600E94394 /* WspConfigVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1350ED2417395600E94394 /* WspConfigVC.xib */; };
@@ -84,7 +85,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04B65F1F2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B65F1E2FD2DA3B002AFB5C /* QNDeviceSDK.framework in Frameworks */,
+				04E4F57030078023006C8FBB /* QNSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,12 +494,10 @@
 				D232D6432004DE2D00AABD67 /* Sources */,
 				D232D6442004DE2D00AABD67 /* Frameworks */,
 				D232D6452004DE2D00AABD67 /* Resources */,
-				04B65F202FD2DA3B002AFB5C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04B65F1D2FD2DA3B002AFB5C /* PBXTargetDependency */,
 			);
 			name = QNDeviceSDKDemo;
 			productName = QNDeviceSDKDemo;
@@ -878,10 +876,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/QNSDK",
-					"$(PROJECT_DIR)/QNSDK/SDK",
-				);
 				MARKETING_VERSION = 2.36.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qingniu.sdk.test;
@@ -911,10 +905,6 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/QNSDK",
-					"$(PROJECT_DIR)/QNSDK/SDK",
 				);
 				MARKETING_VERSION = 2.36.2;
 				OTHER_LDFLAGS = "-ObjC";
